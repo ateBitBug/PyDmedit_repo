@@ -1,0 +1,9 @@
+HRPROCID,CTRLNUM,PULINENO,PUAGE,PUFNAME,HRMIS,HRINTSTA,HRSTATE,PRJOBSTATUS,PRJOBNAME,PRSUPERHERO,PRHERONAME
+001999,999K999,3,33,Tom,3,1,ny,part-time,flip burgers,n,none
+001999,999K999,1,11,Jerry,3,1,ny,full-time,accountant,n,none
+001999,999K999,2,22,Popeye,3,1,ny,full-time,trainer,n,none
+001999,999K999,5,55,Wimpy,3,1,ny,part-time,lawyer,n,none
+001111,111A111,1,10,Logan,2,2,ca,full-time,journalist,y,wolverine
+001111,111A111,4,40,Clark,2,2,ca,part-time,programmer,y,superman
+001111,111A111,3,30,Mickey,2,2,ca,full-time,freelancer,n,none
+001222,222B222,1,10,Peter,1,1,wa,full-time,parker,y,spiderman

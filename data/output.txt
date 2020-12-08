@@ -1,0 +1,14 @@
+apples, 4,e1
+bananas,3,d1
+bananas,3,d2
+bananas,3,d3
+bananas,3,d4
+kiwis,4, a1
+kiwis,4, a2
+kiwis,4, a3
+oranges,2,b1
+oranges,2,b2
+pears,1, c1
+pears,1, c2
+pears,1, c3
+pears,1, c4
