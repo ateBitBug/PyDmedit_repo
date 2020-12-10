@@ -224,7 +224,7 @@ if __name__ == '__main__':
 
     for persons in perDS.getRecords(key):
       print(f"...another I am repo found persons... -> {persons.pulinenoList}")
-      print(f"...found pers... -> {pers.pulinenoList}")
+      print(f"...check found pers... -> {pers.pulinenoList}")
 
 
     print(f" ---- editing -> key: {key} -- hero: {hero.pulinenoList}")
