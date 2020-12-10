@@ -31,14 +31,14 @@ bananas,3,d4
 # https://queirozf.com/entries/python-3-subprocess-examples
 
 if platform == "linux" or platform == "linux2":
-  src = "/home/woof/PycharmProjects/gitRepo/pydmedit-repo/data/fruit.txt"
-  des = "/home/woof/PycharmProjects/gitRepo/pydmedit-repo/data/output.txt"
+  src = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/fruit.txt"
+  des = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/output.txt"
 elif platform == "win32":
-  src = "d:/compilers/githubRepos/pydmedit-repo/data/fruit.txt"
-  des = "d:/compilers/githubRepos/pydmedit-repo/data/output.txt"
+  src = "d:/compilers/githubRepos/pydmedit-repos/data/fruit.txt"
+  des = "d:/compilers/githubRepos/pydmedit-repos/data/output.txt"
 else:
-  src = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repo/data/fruit.txt"
-  des = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repo/data/output.txt"
+  src = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/fruit.txt"
+  des = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/output.txt"
 
 
 # status = subprocess.call(["sort","--field-separator=,", "--key=2,3", "-o", des, src])
