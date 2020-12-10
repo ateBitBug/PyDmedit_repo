@@ -228,7 +228,7 @@ if __name__ == '__main__':
 
 
     print(f" ---- editing -> key: {key} -- hero: {hero.pulinenoList}")
-    print(f" ---- editing -> key: {key} -- persons: {persons.pulinenoList}")
+    print(f" ---- reverse repo editing -> key: {key} -- persons: {persons.pulinenoList}")
 
     for i in hero.pulinenoList:
       heroName = hero.prheroname[i]
