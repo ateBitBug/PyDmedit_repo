@@ -204,14 +204,14 @@ if __name__ == '__main__':
   print(platform)
 
   if platform == "linux" or platform == "linux2":
-    inputHero = "/home/woof/PycharmProjects/gitRepo/pydmedit-repo/data/heros.csv"
-    inputPer = "/home/woof/PycharmProjects/gitRepo/pydmedit-repo/data/pers.csv"
+    inputHero = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/heros.csv"
+    inputPer = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/pers.csv"
   elif platform == "win32":
-    inputHero = "d:/compilers/githubRepos/pydmedit-repo/data/heros.csv"
-    inputPer = "d:/compilers/githubRepos/pydmedit-repo/data/pers.csv"
+    inputHero = "d:/compilers/githubRepos/pydmedit-repos/data/heros.csv"
+    inputPer = "d:/compilers/githubRepos/pydmedit-repos/data/pers.csv"
   else:
-    inputHero = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repo/data/heros.csv"
-    inputPer = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repo/data/pers.csv"
+    inputHero = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/heros.csv"
+    inputPer = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/pers.csv"
 
   keyMonitor = KeyMonitor(keys)
   heroDS = Dataset(heros, keyMonitor, inputHero)
