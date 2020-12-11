@@ -27,9 +27,11 @@ Using a Python "for-loop", the above records are iterated as follows:
 
   for hhldID in hhldIDs:
     for persons in getRecords(hhldIDs):
-      # getRecords(hhldID) returns all persons in the household for "hhldID"
+      # getRecords(hhldID) returns all persons in the household for each of
+      # "hhldIDs" i.e. first, getRecords(hhldID) returns "10001" household
+      # members
 
-      # to access personID = 1's age
+      # to access hhldID = 10001's personID = 1's (Mary Jone) age
       person_age1 = persons.age[1]
 
       # to find personID = 2's (John Jone) parent
