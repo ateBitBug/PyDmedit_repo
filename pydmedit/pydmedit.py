@@ -219,11 +219,7 @@ if __name__ == '__main__':
 
   for key in keyMonitor:
     for hero in heroDS.getRecords(key):
-<<<<<<< HEAD
-      print(f"...I am adding repo found hero... -> {hero.pulinenoList}")
-=======
       print(f"...added repo found hero... -> {hero.pulinenoList}")
->>>>>>> 8f6c00c582fcf77174d693a8dd91b51e120b2181
       print(f"...found heros... -> {heros.pulinenoList}")
 
     for persons in perDS.getRecords(key):
