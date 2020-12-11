@@ -1,4 +1,6 @@
 import csv
+from sys import platform
+
 ''' +
 hrprocid,ctrlnum,pulineno,puage,pufname,hrmis,hrintsta,hrstate,prjobstatus,
 prjobname,prsuperhero,prheroname
@@ -23,14 +25,24 @@ prjobname,prsuperhero,prheroname
 
     output file -> hhlds.csv
 *'''
+if platform == "linux" or platform == "linux2":
+  inputDS = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/hhldsPers.csv"
+  outputDS = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/hhlds.csv"
+elif platform == "win32":
+  inputDS = "d:/compilers/githubRepo/pydmedit-repos/data/hhldsPers.csv"
+  outputDS = "d:/compilers/githubRepo/pydmedit-repos/data/hhlds.csv"
+else:
+  inputDS = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/hhldsPers.csv"
+  outputDS = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/hhlds.csv"
+
 hhdVarnamesL = ['HRSTATE','NEWVAR2', 'CTRLNUM', 'NEWVAR1']
 
-with open('/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/hhlds.csv','w') as csvOF:
+with open(outputDS,'w') as csvOF:
   csvWriter=csv.DictWriter(csvOF,fieldnames=hhdVarnamesL,extrasaction='ignore',
     lineterminator='\n')
   csvWriter.writeheader()
 
-  with open('/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/hhldsPers.csv','r') as csvF:
+  with open(inputDS,'r') as csvF:
     csvReader=csv.DictReader(csvF,delimiter=',')
     #csvReader=csv.DictReader(csvF,fieldnames=hhdVarnamesL,delimiter=',') -> doesn't work because variables are skipped
     csvHeader=csvReader.fieldnames
