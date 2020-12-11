@@ -34,8 +34,8 @@ if platform == "linux" or platform == "linux2":
   src = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/fruit.txt"
   des = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/output.txt"
 elif platform == "win32":
-  src = "d:/compilers/githubRepos/pydmedit-repos/data/fruit.txt"
-  des = "d:/compilers/githubRepos/pydmedit-repos/data/output.txt"
+  src = "d:/compilers/githubRepo/pydmedit-repos/data/fruit.txt"
+  des = "d:/compilers/githubRepo/pydmedit-repos/data/output.txt"
 else:
   src = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/fruit.txt"
   des = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/output.txt"
