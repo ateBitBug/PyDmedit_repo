@@ -207,8 +207,8 @@ if __name__ == '__main__':
     inputHero = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/heros.csv"
     inputPer = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/pers.csv"
   elif platform == "win32":
-    inputHero = "d:/compilers/githubRepos/pydmedit-repos/data/heros.csv"
-    inputPer = "d:/compilers/githubRepos/pydmedit-repos/data/pers.csv"
+    inputHero = "d:/compilers/githubRepo/pydmedit-repos/data/heros.csv"
+    inputPer = "d:/compilers/githubRepo/pydmedit-repos/data/pers.csv"
   else:
     inputHero = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/heros.csv"
     inputPer = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/pers.csv"
