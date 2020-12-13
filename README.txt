@@ -1,4 +1,4 @@
-Demographic Edit Using Python (better work again)
+Demographic Edit Using Python
 -----------------------------
 The goal of this project is to create Python tools to edit demographic data.
 
