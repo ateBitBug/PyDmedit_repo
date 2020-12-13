@@ -1,4 +1,4 @@
-Demographic Edit Using Python w10 ateBit
+Demographic Edit Using Python w10 ateBit w10-8bit
 -----------------------------
 The goal of this project is to create Python tools to edit demographic data.
 
