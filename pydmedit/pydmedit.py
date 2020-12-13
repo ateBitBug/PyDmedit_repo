@@ -74,11 +74,9 @@ class KeyMonitor(object):
     self._index = 0
     self._key = None
 
-
   def __iter__(self):
     # self._index = 0
     return self
-
 
   def __next__(self):
     if self._index < len(self._keys):
@@ -88,14 +86,11 @@ class KeyMonitor(object):
     else:
       raise StopIteration
 
-
   def nextKey(self):
     return self._keys[self._index]
 
-
   def currentKey(self):
     return self._key
-
 
 
 
@@ -122,7 +117,6 @@ class Dataset(object):
     #   https://thispointer.com/python-read-a-csv-file-line-by-line-with-or-without-header/
     self._csvReader = csv.DictReader(self._openDataset)
     self._csvHeader = self._csvReader.fieldnames
-
 
   def getRecords(self, key):
     self._key = key
@@ -181,10 +175,8 @@ class Dataset(object):
       if len(self._data.pulinenoList) != 0:
         yield copy.deepcopy(self._data)
 
-
   def openDataset(self):
     return self._openDataset
-
 
   def closeDataset(self):
     self._openDataset.close()
