@@ -191,7 +191,7 @@ if __name__ == '__main__':
   pers=Pers()
   heros=Heros()
 
-  keys = ['333Z333','999K999','111A111','222B222']
+  keys = ['999K999','111A111','222B222']
   
   print(platform)
 
@@ -199,8 +199,8 @@ if __name__ == '__main__':
     inputHero = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/heros.csv"
     inputPer = "/home/woof/PycharmProjects/gitRepo/pydmedit-repos/data/pers.csv"
   elif platform == "win32":
-    inputHero = "d:/compilers/githubRepo/pydmedit-repos/data/heros.csv"
-    inputPer = "d:/compilers/githubRepo/pydmedit-repos/data/pers.csv"
+    inputHero = "d:/compilers/gitRepo/pydmedit-repos/data/heros.csv"
+    inputPer = "d:/compilers/gitRepo/pydmedit-repos/data/pers.csv"
   else:
     inputHero = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/heros.csv"
     inputPer = "/Volumes/macExFat/compilers/gitRepo/pydmedit-repos/data/pers.csv"
